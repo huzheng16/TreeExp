@@ -60,7 +60,7 @@ TEconstruct = function(ExpValueFP=NULL, taxa="all", subtaxa="all",
   invalid_arr <- NULL
 
   for (i in 2:ncol(exp_value_df)) {
-    if (mean(exp_value_df[,i]) < 1) {
+    if (mean(exp_value_df[,i]) < 0.05) {
       invalid_arr <- c(invalid_arr,i)
     }
   }
