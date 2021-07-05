@@ -22,7 +22,7 @@ A convenient way to install package from github is through *devtools* package:
 
 ```{r, eval=FALSE}
 install.packages('devtools')
-devtools::install_github("jingwyang/TreeExp")
+devtools::install_github("huzheng16/TreeExp")
 ```
 
 Please refer to [Tutorial](https://jingwyang.github.io/TreeExp-Tutorial) for startup guide of *TreeExp*.
